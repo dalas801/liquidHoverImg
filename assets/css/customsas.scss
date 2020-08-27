@@ -1,0 +1,47 @@
+// Small tablets and large smartphones (landscape view)
+$mobile-width: 576px;
+
+// Small tablets (portrait view)
+$tablet-width: 768px;
+
+// Tablets and small desktops
+$desktop-width: 1024px;
+
+
+
+
+
+
+
+.text{
+  position: relative;
+  color: #ffffff;
+  letter-spacing: 5px;
+  top: 500px;
+  font-size: 108px;
+  font-weight: 800;
+  left: 10%;
+  top: 16%;
+  /* white-space: nowrap; */
+  z-index: 2;
+  display: inline;
+  transform: translate(-50%, -50%);
+}
+body{
+  margin:rgb(136, 8, 8);
+  padding: 0%;
+  width: 100%;
+  height: 100vh;
+  background: #161616 !important;
+
+}
+
+.wraper{
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: burlywood;
+  transform: translate(-50%, -50%);
+}
